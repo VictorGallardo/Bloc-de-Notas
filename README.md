@@ -4,7 +4,7 @@
 
 # Menu 
 
-Este es el menu principal, cada opción esta numerada, debiendo introducir dicho numero para acceder a la opción deseada.
+Este es el menu principal, cada opción esta numerada, debiendo introducir dicho número para acceder a la opción deseada.
 
 
 ![](screenshots/c1.jpg)
