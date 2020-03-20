@@ -24,7 +24,7 @@ public class BlocNotas {
       System.out.println("BLOC DE NOTAS");
       System.out.println("Menu");
       System.out.println("-------------");
-      System.out.println("1. Nueva nota\n2. Leer notas\n3. Combinar notas\n4. Pasar a Mayusculas\n5. Borrar nota\n6. Salir");
+      System.out.println("1. Nueva nota\n2. Leer notas\n3. Combinar notas\n4. Pasar a mayúsculas\n5. Borrar nota\n6. Salir");
       System.out.println("");
       opcion = Integer.parseInt(s.nextLine());
       
@@ -39,7 +39,7 @@ public class BlocNotas {
             bw.write(textNota);
             bw.close();
           } catch (IOException ioe) {
-            System.out.println("No se ha podido escribir en el fichero");
+            System.out.println("No se ha podido escribir la nota");
           }
           break;
         case 2:
@@ -56,17 +56,17 @@ public class BlocNotas {
 
             br.close();
           } catch (FileNotFoundException fnfe) {
-            System.out.println("No se encuentra el fichero primos.dat");
+            System.out.println("No se encuentra la nota " + nomNota);
           } catch (IOException ioe) {
-            System.out.println("No se puede leer el fichero primos.dat");
+            System.out.println("No se puede leer la nota " + nomNota);
           }
           break;
         case 3:
-          System.out.println("Introduce el nombre del fichero 1:");
+          System.out.println("Introduzca el nombre de la 1º Nota:");
           String nota1 = s.nextLine();
-          System.out.println("Introduce el nombre del fichero 2:");
+          System.out.println("Introduzca el nombre de la 2º Nota:");
           String nota2 = s.nextLine();
-          System.out.println("Introduce el nombre del fichero resultante:");
+          System.out.println("Introduzca el nombre de la nueva nota combinada:");
           String nuevaN = s.nextLine();
 
           try {
@@ -95,15 +95,15 @@ public class BlocNotas {
             bw.close();
 
           } catch (FileNotFoundException fnfe) {
-            System.out.println("No se encuentra el fichero");
+            System.out.println("No se encuentra la nota");
           } catch (IOException ioe) {
-            System.out.println("No se puede leer el fichero");
+            System.out.println("No se puede leer la nota");
           }
           break;
         case 4:
           System.out.println("Introduzca el nombre de la nota que cambiar a mayúsculas");
           nomNota = s.nextLine();
-          System.out.println("Introduzca el nombre de la nueva nota ");
+          System.out.println("Introduzca el nombre de la nueva nota");
           String nuevaNo = s.nextLine();
 
           try {
@@ -120,9 +120,9 @@ public class BlocNotas {
             bw.close();
 
           } catch (FileNotFoundException fnfe) {
-            System.out.println("No se encuentra el fichero");
+            System.out.println("No se encuentra la nota");
           } catch (IOException ioe) {
-            System.out.println("No se puede leer el fichero");
+            System.out.println("No se puede leer la nota");
           }
           break;
         case 5:
