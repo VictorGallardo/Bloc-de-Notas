@@ -1,1 +1,10 @@
 # Bloc-de-Notas
+
+**Programa para crear notas de texto desde consola**, en el podrás crear nuevas notas, leerlas, combinarlas, cambiar el texto a mayuscula y eliminarlas.
+
+# Menu 
+
+Este es el menu principal, cada opción esta numerada, debiendo introducir dicho numero para acceder a la opción deseada.
+
+
+![](screenshots/c1.jpg)
