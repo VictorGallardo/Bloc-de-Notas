@@ -9,12 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- *
- *
- */
 public class BlocNotas {
-
   public static void main(String[] args) {
 
     Scanner s = new Scanner(System.in);
