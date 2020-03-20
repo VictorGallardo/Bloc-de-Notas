@@ -13,4 +13,8 @@ En todas las opciones el usuario deberá introducir el nombre de la nota que des
 
 Para la opción de combinar notas, deberá introducir los nombres de las dos notas a combinar y el nuevo nombre para la nueva nota combinada.
 
+![](screenshots/c2.jpg)
+
 Para la opción de pasar a mayúsculas también es necesario introducir un nuevo nombre para la nota nueva con el texto en mayúsculas.
+
+![](screenshots/c3.jpg)
